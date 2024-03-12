@@ -1,20 +1,26 @@
 
-https://github.com/chrisdone/elisp-guide
 
-https://www.gnu.org/software/emacs/
-
-(* 2 3)
-(concat "a" "b")
-(defun func (arg1 arg2)
-  "Always document your functions."
-   <function body>)
-(defvar var-name <the value>
-  "Always document your variables.")
-(let ((x 1)
-      (y 2))
-  ...)
-
-
+daisuke_to 
+#########################################################
+(defun main ()
+  (let ((s (read-string ""))
+        (disp t))
+    (dotimes (i (length s))
+      (let ((s-char (aref s i)))
+        (if (char-equal ?| s-char)
+            (setq disp (not disp))
+          (when disp
+            (princ (char-to-string s-char))
+            )
+          )
+        )
+      )
+    (terpri)
+    )
+  nil
+  )
+(main)
+#########################################################
 
 
 
