@@ -1,4 +1,4 @@
-//practiceA.emac
+//practiceA.emacs
 ##################################
 1
 2 3
