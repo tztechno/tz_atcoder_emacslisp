@@ -6,7 +6,7 @@
 ####################################
 ####################################
 ####################################
-[ERROR	Emacs Lisp (Native Compile) (GNU Emacs 28.2)]
+[AC	Emacs Lisp (Native Compile) (GNU Emacs 28.2)]
 
 (let (str b c)
   (setq str (read-string ""))
