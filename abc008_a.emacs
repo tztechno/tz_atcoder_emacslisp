@@ -1,4 +1,5 @@
 ##################
+
 (let (str b c)
   (setq str (read-string ""))
   (string-match "\\([0-9]+\\) \\([0-9]+\\)" str)
