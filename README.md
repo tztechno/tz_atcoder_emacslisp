@@ -39,6 +39,10 @@ https://www.gnu.org/software/emacs/
 ```
 ---
 ```
-
+    (cond
+     ((= d 22) (princ "Christmas Eve Eve Eve"))
+     ((= d 23) (princ "Christmas Eve Eve"))
+     ((= d 24) (princ "Christmas Eve"))
+     (t (princ "Christmas")))
 ```
 ---
