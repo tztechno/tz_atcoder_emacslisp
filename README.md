@@ -35,7 +35,18 @@ https://www.gnu.org/software/emacs/
 ```
 ---
 ```
+(defun main ()
+  (let ((d (upcase (read-from-minibuffer ""))))
+    (princ 
+     (cond
+      ((string= d "A") "T")
+      ((string= d "T") "A")
+      ((string= d "C") "G")
+      ((string= d "G") "C")
+      (t "")))
+    (terpri)))
 
+(main)
 ```
 ---
 ```
